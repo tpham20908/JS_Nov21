@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Window method prompt</title>
+    <script type="text/javascript">
+        /**
+        * split javascript into 4 phases
+        * 1. Declaration Phase where you declare variable and reference variables
+        * 2. Initializaton Phase
+        * 3. Processing Phase
+        * 4. Termination (Output) Phase
+        */
+        // Declaration Phase
+        var name;
+        var message, result;
+        // Initialization Phase
+        name = window.prompt("Please enter your name", "TP");
+        message = "Welcome to JavaScript Programming!";
+        // Processing Phase
+        result = "Hello " + name + ", " + message;
+        // Termination Phase (Output)
+        document.writeln("<h2>" + result + "</h2>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>
